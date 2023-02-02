@@ -1,0 +1,105 @@
+.registration-status-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 40%;
+  height: 100vh;
+}
+
+.view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.yet-to-register-image {
+  width: 90%;
+  max-width: 461px;
+}
+
+.register-description {
+  text-align: center;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 19px;
+  line-height: 1.5;
+  margin: 0px;
+  margin-top: 48px;
+}
+
+.register-here-button {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  background-color: #0967d2;
+  width: 90%;
+  border: none;
+  border-radius: 8px;
+  margin-top: 48px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+.registered-img {
+  width: 80%;
+  max-width: 100px;
+}
+
+.registered-heading {
+  text-align: center;
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0px;
+  margin-top: 40px;
+}
+
+.registrations-closed-image {
+  width: 80%;
+  max-width: 393px;
+}
+
+.registrations-closed-heading {
+  text-align: center;
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0px;
+  margin-top: 32px;
+}
+
+.registrations-closed-description {
+  text-align: center;
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 1.7;
+  width: 60%;
+  margin: 0px;
+  margin-top: 16px;
+}
+
+.no-active-event-description {
+  text-align: center;
+  align-self: flex-start;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.75;
+  margin: 0px;
+  margin-top: 64px;
+  margin-right: 16px;
+  margin-left: 16px;
+}
